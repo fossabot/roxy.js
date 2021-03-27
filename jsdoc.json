@@ -1,0 +1,52 @@
+{
+    "recurseDepth": 2,
+    
+    "source": {
+        "include": ["./lib"], 
+        "includePattern": "\\.(jsx|js)$"
+    },
+    
+    "opts" : {
+        "encoding": "utf8",
+        "destination": "./docs/",
+        "readme": "./README.md",
+        "recurse": true,
+        "verbose": true,
+        "template": "better-docs"
+    },
+
+    "plugins": [
+        "node_modules/better-docs/category",
+        "plugins/markdown"
+    ],
+
+    "tags": {
+        "allowUnknownTags": ["optional", "category"]
+    },
+
+    "templates": {
+        "better-docs": {
+            "logo": "./rojs-small.png",
+            "title": "ro.js",
+            "hideGenerator": true,
+            "navLinks": [
+                {
+                    "label": "GitHub",
+                    "href": "https://github.com/suufi/noblox.js"
+                },
+                {
+                    "label": "Discord",
+                    "href": "https://discord.gg/R5GVSyTVGv"
+                }
+            ]
+        },
+        "search": true,
+        "default": {
+            "staticFiles": {
+                "include": [
+                    "./img"
+                ]
+            }
+        }
+    }
+}
