@@ -30,11 +30,12 @@ ro.js is a node module to interact with the roblox website via node.js. it is he
 run the following in your terminal:
 ```bash
 # locally
-    $ npm install noblox.js --save
-    $ yarn add noblox.js
+    $ npm install ro.js --save
+    $ yarn add wo.js
 
 # globally
-    $ npm install noblox.js -g
+    $ npm install ro.js -g
+    $ yarn global add ro.js
 ```
 
 ## docs
@@ -63,7 +64,7 @@ async function init() {
 
 * [cole](https://github.com/suufi) - lead maintainer
 * [suufi](https://github.com/suufi) & [visualizememe](https://github.com/Visualizememe) - inspiration
-* [suufi](https://github.com/suufi) - readme base
+* [suufi](https://github.com/coleiscoolig) - readme base
 
 ## License
 
