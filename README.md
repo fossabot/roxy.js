@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="" alt="ro.js" width="250"/>
+    <img src="rojs.png" alt="ro.js" width="250"/>
     <br>
 </h1>
 

@@ -1,0 +1,34 @@
+{
+  "name": "ro.js",
+  "version": "1.0.0",
+  "description": "a simple node.js wrapper for roblox",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "docs": "jsdoc -c jsDocsConfig.json -r -t ./node_modules/better-docs",
+    "lint": "eslint lib/",
+    "test": "jest",
+    "postinstall": "node postinstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coleiscoolig/ro.js.git"
+  },
+  "keywords": [
+    "roblox"
+  ],
+  "author": "cole (coleiscoolig)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coleiscoolig/ro.js/issues"
+  },
+  "homepage": "https://github.com/coleiscoolig/ro.js#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.0",
+    "figlet": "^1.5.0"
+  }
+}
