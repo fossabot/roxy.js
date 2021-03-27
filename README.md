@@ -1,14 +1,14 @@
 <h1 align="center">
-    <img src="https://raw.githubusercontent.com/suufi/noblox.js/master/img/noblox-js.png" alt="ro.js" width="250"/>
+    <img src="" alt="ro.js" width="250"/>
     <br>
 </h1>
 
 <h4 align="center">a simple node wrapper for roblox.</h4>
 
 <p align="center">
-    <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-blue.svg?style=flat-square" alt="JavaScript Style Guide"/></a>
-    <a href="https://discord.gg/R5GVSyTVGv"><img src="https://img.shields.io/badge/discord-noblox.js-blue.svg?style=flat-square" alt="noblox.js Discord"/></a>
-    <a href="https://npmjs.org/noblox.js"><img src="https://img.shields.io/npm/v/noblox.js.svg?style=flat-square" alt="NPM package"/>
+    <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-blue.svg?style=flat-square" alt="style"/></a>
+    <a href="https://discord.gg/R5GVSyTVGv"><img src="https://img.shields.io/badge/discord-noblox.js-blue.svg?style=flat-square" alt="discord"></a>
+    <a href="https://npmjs.org/noblox.js"><img src="https://img.shields.io/npm/v/noblox.js.svg?style=flat-square" alt="npm package"></a>
     <a href="https://travis-ci.org/suufi/noblox.js"><img src="https://img.shields.io/travis/suufi/noblox.js/master.svg?style=flat-square" alt="Travis Build Status"/></a></a>
 </p>
 
@@ -37,13 +37,10 @@ Noblox.js allows you to do things you would normally do on the [Roblox](https://
 
 With node.js installed simply run: 
 ```bash
-# Run this to install noblox.js locally to your repository. 
+# locally
 $ npm install noblox.js --save
-
-# if you're using yarn:
 $ yarn add noblox.js
-
-# Run this instead to install noblox.js globally so you can use it anywhere.
+# globally
 $ npm install noblox.js -g
 ```
 That's it!
