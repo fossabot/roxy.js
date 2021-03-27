@@ -41,16 +41,17 @@ run the following in your terminal:
 
 you can find our current docs at [ro.js.org](https://ro.js.org/)
     
-### getting your cookie (chrome):
+## getting your cookie (chrome):
+
 1. open roblox page and login to chosen account
 2. press `Control + Shift + i` on your keyboard or right click and click inspect
 3. click `Application`
 4. find `.ROBLOSECURITY` and copy
 5. put this full token into client.init: `client.init({ cookie: _|WARNING:-DO})`
     
-### example
-```js
+## example
 
+```js
 const rojs = require('ro.js')
 const client = new rojs.client()
 async function init() {
