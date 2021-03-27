@@ -19,7 +19,7 @@
   <a href="https://github.com/suufi/noblox.js/tree/master/examples">examples</a> •
   <a href="#credits">credits</a> •
   <a href="#license">license</a>
-</p>
+</p> m
 
 ## about
 
