@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="rojs.png" alt="ro.js" width="250"/>
+    <img src="https://raw.githubusercontent.com/coleiscoolig/ro.js/main/rojs.png?token=AJTZHS3663ZD6Z5CKCLOIFDAL25VE" alt="ro.js" width="250"/>
     <br>
 </h1>
 
@@ -7,7 +7,7 @@
 
 <p align="center">
     <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-blue.svg?style=flat-square" alt="style"/></a>
-    <a href="https://discord.gg/R5GVSyTVGv"><img src="https://img.shields.io/badge/discord-noblox.js-blue.svg?style=flat-square" alt="discord"></a>
+    <a href="https://discord.gg/R5GVSyTVGv"><img src="https://img.shields.io/badge/discord-ro.js-blue.svg?style=flat-square" alt="discord"></a>
     <a href="https://npmjs.org/noblox.js"><img src="https://img.shields.io/npm/v/noblox.js.svg?style=flat-square" alt="npm package"></a>
     <a href="https://travis-ci.org/suufi/noblox.js"><img src="https://img.shields.io/travis/suufi/noblox.js/master.svg?style=flat-square" alt="Travis Build Status"/></a></a>
 </p>
