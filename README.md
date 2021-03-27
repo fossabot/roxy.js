@@ -38,10 +38,11 @@ Noblox.js allows you to do things you would normally do on the [Roblox](https://
 With node.js installed simply run: 
 ```bash
 # locally
-$ npm install noblox.js --save
-$ yarn add noblox.js
+    $ npm install noblox.js --save
+    $ yarn add noblox.js
+
 # globally
-$ npm install noblox.js -g
+    $ npm install noblox.js -g
 ```
 That's it!
 
