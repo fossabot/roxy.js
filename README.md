@@ -56,7 +56,7 @@ you can find our current docs at [ro.js.org](https://ro.js.org/)
 const rojs = require('ro.js')
 const client = new rojs.client()
 async function init() {
-    await client.init({cookie: _|WARNING:-DO-NOT-SHARE-THIS.--Sharing-this-will-allow-someone-to-log-in-as-you-and-to-steal-your-ROBUX-and-items.|_12345678901234567890})
+    await client.init({cookie: '_|WARNING:-DO-NOT-SHARE-THIS.--Sharing-this-will-allow-someone-to-log-in-as-you-and-to-steal-your-ROBUX-and-items.|_12345678901234567890'})
 }
 ```
 
