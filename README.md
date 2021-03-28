@@ -8,7 +8,7 @@
 <p align="center">
     <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-blue.svg?style=flat-square" alt="style"/></a>
     <a href="https://discord.gg/WK2qTecTkJ"><img src="https://img.shields.io/badge/discord-ro.js-blue.svg?style=flat-square" alt="discord"></a>
-    <a href="https://npmjs.org/rojs/ro.js"><img src="https://img.shields.io/npm/v/@rojs/ro.js.svg?style=flat-square" alt="npm package"></a>
+    <a href="https://npmjs.org/rojs/ro.js"><img src="https://img.shields.io/npm/v/roxy.js.svg?style=flat-square" alt="npm package"></a>
     <!-- <a href="https://travis-ci.org/suufi/noblox.js"><img src="https://img.shields.io/travis/suufi/noblox.js/master.svg?style=flat-square" alt="Travis Build Status"/></a></a> -->
 </p>
 
