@@ -21,12 +21,14 @@ jobs:
 
       - name: add dependencies
         run: |
-              yarn
-              yarn global add jsdoc
-              yarn add eslint
+          yarn
+          yarn global add jsdoc
+          yarn global add standard
 
       - name: lint
-        run: yarn run lint
+        run: |
+          standard "lib/"
+
   publish:
     needs: test
     runs-on: ubuntu-latest
@@ -44,9 +46,9 @@ jobs:
 
       - name: add dependencies
         run: |
-              yarn
-              yarn global add jsdoc
-              yarn global add eslint
+          yarn
+          yarn global add jsdoc
+          yarn global add eslint
 
       - name: publish
         uses: JS-DevTools/npm-publish@v1
