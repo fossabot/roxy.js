@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="https://raw.githubusercontent.com/coleiscoolig/ro.js/main/img/rojs.png" alt="roxy.js" width="250"/>
+    <img src="https://raw.githubusercontent.com/colenh/roxy.js/main/img/roxyjs.png" alt="roxy.js" width="250"/>
     <br>
 </h1>
 
@@ -16,14 +16,13 @@
   <a href="#about">about</a> •
   <a href="#install">install</a> •
   <a href="#docs">docs</a> •
-  <a href="https://github.com/suufi/noblox.js/tree/master/examples">examples</a> •
   <a href="#credits">credits</a> •
   <a href="#license">license</a>
 </p>
 
 ## about
 
-ro.js is a node module to interact with the roblox website via node.js. it is heavily inspired by noblox.js and bloxy but with simplicity in mind. <3
+roxy.js is a node module to interact with the roblox website via node.js. it is heavily inspired by noblox.js and bloxy but with simplicity in mind. <3
 
 ## install
 
