@@ -24,7 +24,7 @@ jobs:
         run: |
           yarn install
           yarn
-          yarn global add jsdocs
+          yarn global add jsdoc
           yarn run docs
 
       - name: gh pages
