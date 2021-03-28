@@ -26,13 +26,13 @@
 
     "templates": {
         "better-docs": {
-            "logo": "./rojs-small.png",
-            "title": "ro.js",
+            "logo": "./roxyjs-small.png",
+            "title": "roxy.js",
             "hideGenerator": true,
             "navLinks": [
                 {
                     "label": "GitHub",
-                    "href": "https://github.com/suufi/noblox.js"
+                    "href": "https://github.com/colenh/roxy.js"
                 },
                 {
                     "label": "Discord",

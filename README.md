@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="https://raw.githubusercontent.com/coleiscoolig/ro.js/main/img/rojs.png" alt="ro.js" width="250"/>
+    <img src="https://raw.githubusercontent.com/coleiscoolig/ro.js/main/img/rojs.png" alt="roxy.js" width="250"/>
     <br>
 </h1>
 
@@ -8,7 +8,7 @@
 <p align="center">
     <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-blue.svg?style=flat-square" alt="style"/></a>
     <a href="https://discord.gg/WK2qTecTkJ"><img src="https://img.shields.io/badge/discord-ro.js-blue.svg?style=flat-square" alt="discord"></a>
-    <a href="https://npmjs.org/ro.js"><img src="https://img.shields.io/npm/v/ro.js.svg?style=flat-square" alt="npm package"></a>
+    <a href="https://npmjs.org/rojs/ro.js"><img src="https://img.shields.io/npm/v/@rojs/ro.js.svg?style=flat-square" alt="npm package"></a>
     <!-- <a href="https://travis-ci.org/suufi/noblox.js"><img src="https://img.shields.io/travis/suufi/noblox.js/master.svg?style=flat-square" alt="Travis Build Status"/></a></a> -->
 </p>
 
@@ -30,17 +30,17 @@ ro.js is a node module to interact with the roblox website via node.js. it is he
 run the following in your terminal:
 ```bash
 # locally
-    $ npm install ro.js --save
-    $ yarn add ro.js
+    $ npm install roxy.js --save
+    $ yarn add roxy.js
 
 # globally
-    $ npm install ro.js -g
-    $ yarn global add ro.js
+    $ npm install roxy.js -g
+    $ yarn global add roxy.js
 ```
 
 ## docs
 
-you can find our current docs at [ro.js.org](https://ro.js.org/)
+you can find our current docs at [roxy.js.org](https://roxy.js.org/)
     
 ## getting your cookie (chrome):
 
@@ -53,8 +53,8 @@ you can find our current docs at [ro.js.org](https://ro.js.org/)
 ## example
 
 ```js
-const rojs = require('ro.js')
-const client = new rojs.client()
+const roxy = require('roxy.js')
+const client = new roxy.client()
 async function init() {
     await client.init({cookie: '_|WARNING:-DO-NOT-SHARE-THIS.--Sharing-this-will-allow-someone-to-log-in-as-you-and-to-steal-your-ROBUX-and-items.|_12345678901234567890'})
 }
@@ -62,9 +62,9 @@ async function init() {
 
 ## credits
 
-* [cole](https://github.com/suufi) - lead maintainer
-* [suufi](https://github.com/suufi) & [visualizememe](https://github.com/Visualizememe) - inspiration
-* [suufi](https://github.com/coleiscoolig) - readme base
+* [cole](https://github.com/coleiscoolig) - lead maintainer
+* [suufi](https://github.com/suufi) & [visualizememe](https://github.com/visualizememe) - inspiration
+* [suufi](https://github.com/suufi) - readme base
 
 ## License
 

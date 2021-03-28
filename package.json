@@ -16,17 +16,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coleiscoolig/ro.js.git"
+    "url": "git+https://github.com/colenh/roxy.js.git"
   },
   "keywords": [
     "roblox"
   ],
-  "author": "cole (coleiscoolig)",
+  "author": "cole",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/coleiscoolig/ro.js/issues"
+    "url": "https://github.com/colenh/roxy.js/issues"
   },
-  "homepage": "https://ro.js.org",
+  "homepage": "https://roxy.js.org",
   "dependencies": {
     "axios": "^0.21.1",
     "chalk": "^4.1.0",
