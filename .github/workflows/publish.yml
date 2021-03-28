@@ -26,8 +26,7 @@ jobs:
           yarn global add standard
 
       - name: lint
-        run: |
-          standard "lib/"
+        run: standard "lib/"
 
   publish:
     needs: test
