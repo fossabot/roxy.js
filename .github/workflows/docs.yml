@@ -23,6 +23,8 @@ jobs:
       - name: create docs
         run: |
           yarn install
+          yarn add
+          yarn global add jsdocs
           yarn run docs
 
       - name: gh pages
