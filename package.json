@@ -10,7 +10,7 @@
   },
   "scripts": {
     "docs": "jsdoc -c jsdoc.json -r -t ./node_modules/better-docs",
-    "lint": "eslint lib/",
+    "lint": "yarn run eslint lib/",
     "test": "jest",
     "postinstall": "node postinstall.js"
   },

@@ -23,7 +23,7 @@ jobs:
         run: |
               yarn
               yarn global add jsdoc
-              yarn global add eslint
+              yarn add eslint
 
       - name: lint
         run: yarn run lint
