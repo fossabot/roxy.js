@@ -31,7 +31,8 @@
     "axios": "^0.21.1",
     "chalk": "^4.1.0",
     "enmap": "^5.8.4",
-    "figlet": "^1.5.0"
+    "figlet": "^1.5.0",
+    "pug-code-gen": "3.0.2"
   },
   "devDependencies": {
     "better-docs": "^2.3.2",

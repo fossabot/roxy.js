@@ -23,6 +23,7 @@ jobs:
         run: |
               yarn
               yarn global add jsdoc
+              yarn global add eslint
 
       - name: lint
         run: yarn lint
@@ -45,6 +46,7 @@ jobs:
         run: |
               yarn
               yarn global add jsdoc
+              yarn global add eslint
 
       - name: publish
         uses: JS-DevTools/npm-publish@v1
