@@ -5,7 +5,7 @@
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ro.js Global</title>
+  <title>roxy.js Global</title>
 
   <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -41,7 +41,7 @@
         <div class="logo">
              
                 <a class="image" href="index.html">
-                    <img src="./rojs-small.png" alt="logo">
+                    <img src="./roxyjs-small.png" alt="logo">
                 </a>
             
             
@@ -60,7 +60,7 @@
                     
                         <a
                             class="link user-link "
-                            href="https://github.com/suufi/noblox.js"
+                            href="https://github.com/colenh/roxy.js"
                         >
                             GitHub
                         </a>
@@ -90,7 +90,7 @@
             
             <nav>
                 
-                    <h2><a href="index.html">Documentation</a></h2><div class="category"></div><div class="category"><h2>client</h2><h3>Global</h3><ul><li><a href="global.html#initiate">initiate</a></li><li><a href="global.html#validateCookie">validateCookie</a></li></ul></div><div class="category"><h2>user</h2><h3>Global</h3><ul><li><a href="global.html#getidfromname">getidfromname</a></li><li><a href="global.html#getnamefromid">getnamefromid</a></li></ul></div>
+                    <h2><a href="index.html">Documentation</a></h2><div class="category"></div><div class="category"><h2>client</h2><h3>Global</h3><ul><li><a href="global.html#initiate">initiate</a></li><li><a href="global.html#validateCookie">validateCookie</a></li></ul></div><div class="category"><h2>group</h2><h3>Global</h3><ul><li><a href="global.html#getlogo">getlogo</a></li></ul></div><div class="category"><h2>user</h2><h3>Global</h3><ul><li><a href="global.html#getidfromname">getidfromname</a></li><li><a href="global.html#getnamefromid">getnamefromid</a></li></ul></div>
                 
             </nav>
         </div>
@@ -358,8 +358,8 @@
     <h5>Example</h5>
     
     
-        <pre class="prettyprint"><code>const rojs = require('ro.js')
-const userid = await rojs.user.getidfromname('duixrix')</code></pre>
+        <pre class="prettyprint"><code>const roxy = require('roxy.js')
+const userid = await roxy.user.getidfromname('duixrix')</code></pre>
     
 
 
@@ -369,8 +369,8 @@ const userid = await rojs.user.getidfromname('duixrix')</code></pre>
 
 
     
-    <h4 class="name" id="getnamefromid">
-        <a class="href-link" href="#getnamefromid">#</a>
+    <h4 class="name" id="getlogo">
+        <a class="href-link" href="#getlogo">#</a>
         
             
                 <span class='tag'>async</span>
@@ -378,7 +378,7 @@ const userid = await rojs.user.getidfromname('duixrix')</code></pre>
         
         <span class="code-name">
             
-                getnamefromid<span class="signature">(id)</span><span class="type-signature"> &rarr; {string}</span>
+                getlogo<span class="signature">(id)</span><span class="type-signature"></span>
             
         </span>
     </h4>
@@ -523,14 +523,6 @@ const userid = await rojs.user.getidfromname('duixrix')</code></pre>
     <div class='param-desc column is-7'><p>username</p></div>
     
     
-    <div class='column is-5 has-text-left'>
-        <label>Type: </label>
-        
-<span class="param-type">string</span>
-
-
-    </div>
-    
 </div>
 
                 
@@ -543,8 +535,8 @@ const userid = await rojs.user.getidfromname('duixrix')</code></pre>
     <h5>Example</h5>
     
     
-        <pre class="prettyprint"><code>const rojs = require('ro.js')
-const username = await rojs.user.getnamefromid(1719166332)</code></pre>
+        <pre class="prettyprint"><code>const roxy = require('roxy.js')
+const username = await roxy.user.getnamefromid(1719166332)</code></pre>
     
 
 
@@ -728,8 +720,8 @@ const username = await rojs.user.getnamefromid(1719166332)</code></pre>
     <h5>Example</h5>
     
     
-        <pre class="prettyprint"><code>const rojs = require('ro.js')
-const username = await rojs.user.getnamefromid(1719166332)</code></pre>
+        <pre class="prettyprint"><code>const roxy = require('roxy.js')
+const username = await roxy.user.getnamefromid(1719166332)</code></pre>
     
 
 

@@ -7,7 +7,7 @@
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ro.js user/getnamefromid.js</title>
+  <title>roxy.js user/getnamefromid.js</title>
 
   <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -43,7 +43,7 @@
         <div class="logo">
              
                 <a class="image" href="index.html">
-                    <img src="./rojs-small.png" alt="logo">
+                    <img src="./roxyjs-small.png" alt="logo">
                 </a>
             
             
@@ -62,7 +62,7 @@
                     
                         <a
                             class="link user-link "
-                            href="https://github.com/suufi/noblox.js"
+                            href="https://github.com/colenh/roxy.js"
                         >
                             GitHub
                         </a>
@@ -92,7 +92,7 @@
             
             <nav>
                 
-                    <h2><a href="index.html">Documentation</a></h2><div class="category"></div><div class="category"><h2>client</h2><h3>Global</h3><ul><li><a href="global.html#initiate">initiate</a></li><li><a href="global.html#validateCookie">validateCookie</a></li></ul></div><div class="category"><h2>user</h2><h3>Global</h3><ul><li><a href="global.html#getidfromname">getidfromname</a></li><li><a href="global.html#getnamefromid">getnamefromid</a></li></ul></div>
+                    <h2><a href="index.html">Documentation</a></h2><div class="category"></div><div class="category"><h2>client</h2><h3>Global</h3><ul><li><a href="global.html#initiate">initiate</a></li><li><a href="global.html#validateCookie">validateCookie</a></li></ul></div><div class="category"><h2>group</h2><h3>Global</h3><ul><li><a href="global.html#getlogo">getlogo</a></li></ul></div><div class="category"><h2>user</h2><h3>Global</h3><ul><li><a href="global.html#getidfromname">getidfromname</a></li><li><a href="global.html#getnamefromid">getnamefromid</a></li></ul></div>
                 
             </nav>
         </div>
@@ -120,8 +120,8 @@ const chalk = require('chalk');
  * @alias getnamefromid
  * @returns {string} username
  * @param {number} id
- * @example const rojs = require('ro.js')
- * const username = await rojs.user.getnamefromid(1719166332)
+ * @example const roxy = require('roxy.js')
+ * const username = await roxy.user.getnamefromid(1719166332)
 **/
 
 async function getnamefromid(id) {

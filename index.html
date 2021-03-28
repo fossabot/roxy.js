@@ -5,7 +5,7 @@
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ro.js Home</title>
+  <title>roxy.js Home</title>
 
   <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -41,7 +41,7 @@
         <div class="logo">
              
                 <a class="image" href="index.html">
-                    <img src="./rojs-small.png" alt="logo">
+                    <img src="./roxyjs-small.png" alt="logo">
                 </a>
             
             
@@ -60,7 +60,7 @@
                     
                         <a
                             class="link user-link "
-                            href="https://github.com/suufi/noblox.js"
+                            href="https://github.com/colenh/roxy.js"
                         >
                             GitHub
                         </a>
@@ -90,7 +90,7 @@
             
             <nav>
                 
-                    <h2><a href="index.html">Documentation</a></h2><div class="category"></div><div class="category"><h2>client</h2><h3>Global</h3><ul><li><a href="global.html#initiate">initiate</a></li><li><a href="global.html#validateCookie">validateCookie</a></li></ul></div><div class="category"><h2>user</h2><h3>Global</h3><ul><li><a href="global.html#getidfromname">getidfromname</a></li><li><a href="global.html#getnamefromid">getnamefromid</a></li></ul></div>
+                    <h2><a href="index.html">Documentation</a></h2><div class="category"></div><div class="category"><h2>client</h2><h3>Global</h3><ul><li><a href="global.html#initiate">initiate</a></li><li><a href="global.html#validateCookie">validateCookie</a></li></ul></div><div class="category"><h2>group</h2><h3>Global</h3><ul><li><a href="global.html#getlogo">getlogo</a></li></ul></div><div class="category"><h2>user</h2><h3>Global</h3><ul><li><a href="global.html#getidfromname">getidfromname</a></li><li><a href="global.html#getnamefromid">getnamefromid</a></li></ul></div>
                 
             </nav>
         </div>
@@ -125,14 +125,14 @@
 
     <section>
         <article><h1 align="center">
-    <img src="https://raw.githubusercontent.com/coleiscoolig/ro.js/main/img/rojs.png" alt="ro.js" width="250"/>
+    <img src="https://raw.githubusercontent.com/coleiscoolig/ro.js/main/img/rojs.png" alt="roxy.js" width="250"/>
     <br>
 </h1>
 <h4 align="center">a simple node wrapper for roblox.</h4>
 <p align="center">
     <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-blue.svg?style=flat-square" alt="style"/></a>
     <a href="https://discord.gg/WK2qTecTkJ"><img src="https://img.shields.io/badge/discord-ro.js-blue.svg?style=flat-square" alt="discord"></a>
-    <a href="https://npmjs.org/ro.js"><img src="https://img.shields.io/npm/v/ro.js.svg?style=flat-square" alt="npm package"></a>
+    <a href="https://npmjs.org/rojs/ro.js"><img src="https://img.shields.io/npm/v/@rojs/ro.js.svg?style=flat-square" alt="npm package"></a>
     <!-- <a href="https://travis-ci.org/suufi/noblox.js"><img src="https://img.shields.io/travis/suufi/noblox.js/master.svg?style=flat-square" alt="Travis Build Status"/></a></a> -->
 </p>
 <p align="center">
@@ -148,15 +148,15 @@
 <h2>install</h2>
 <p>run the following in your terminal:</p>
 <pre class="prettyprint source lang-bash"><code># locally
-    $ npm install ro.js --save
-    $ yarn add ro.js
+    $ npm install roxy.js --save
+    $ yarn add roxy.js
 
 # globally
-    $ npm install ro.js -g
-    $ yarn global add ro.js
+    $ npm install roxy.js -g
+    $ yarn global add roxy.js
 </code></pre>
 <h2>docs</h2>
-<p>you can find our current docs at <a href="https://ro.js.org/">ro.js.org</a></p>
+<p>you can find our current docs at <a href="https://roxy.js.org/">roxy.js.org</a></p>
 <h2>getting your cookie (chrome):</h2>
 <ol>
 <li>open roblox page and login to chosen account</li>
@@ -166,17 +166,17 @@
 <li>put this full token into client.init: <code>client.init({ cookie: '_|WARNING:-DO'})</code></li>
 </ol>
 <h2>example</h2>
-<pre class="prettyprint source lang-js"><code>const rojs = require('ro.js')
-const client = new rojs.client()
+<pre class="prettyprint source lang-js"><code>const roxy = require('roxy.js')
+const client = new roxy.client()
 async function init() {
     await client.init({cookie: '_|WARNING:-DO-NOT-SHARE-THIS.--Sharing-this-will-allow-someone-to-log-in-as-you-and-to-steal-your-ROBUX-and-items.|_12345678901234567890'})
 }
 </code></pre>
 <h2>credits</h2>
 <ul>
-<li><a href="https://github.com/suufi">cole</a> - lead maintainer</li>
-<li><a href="https://github.com/suufi">suufi</a> &amp; <a href="https://github.com/Visualizememe">visualizememe</a> - inspiration</li>
-<li><a href="https://github.com/coleiscoolig">suufi</a> - readme base</li>
+<li><a href="https://github.com/coleiscoolig">cole</a> - lead maintainer</li>
+<li><a href="https://github.com/suufi">suufi</a> &amp; <a href="https://github.com/visualizememe">visualizememe</a> - inspiration</li>
+<li><a href="https://github.com/suufi">suufi</a> - readme base</li>
 </ul>
 <h2>License</h2>
 <p>MIT</p></article>
