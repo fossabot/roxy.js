@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="rojs.png" alt="ro.js" width="250"/>
+    <img src="https://raw.githubusercontent.com/coleiscoolig/ro.js/main/img/rojs.png" alt="ro.js" width="250"/>
     <br>
 </h1>
 
