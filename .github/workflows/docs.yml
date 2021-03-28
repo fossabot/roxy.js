@@ -22,7 +22,6 @@ jobs:
 
       - name: create docs
         run: |
-          yarn install
           yarn
           yarn global add jsdoc
           yarn run docs
