@@ -7,7 +7,7 @@
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>roxy.js client/validateCookie.js</title>
+  <title>roxy.js group/getlogo.js</title>
 
   <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -100,7 +100,7 @@
             <div class="content">
                 <header class="page-title">
                     <p>Source</p>
-                    <h1>client/validateCookie.js</h1>
+                    <h1>group/getlogo.js</h1>
                 </header>
                 
 
@@ -109,21 +109,28 @@
     
     <section>
         <article>
-            <pre class="prettyprint source linenums"><code>// docs
+            <pre class="prettyprint source linenums"><code>// imports / variables
+const axios = require('axios').default;
+const chalk = require('chalk');
+
+// docs
 /**
- * validates cookie provided
- * @category client
- * @alias validateCookie
- * @returns {boolean} true if valid / false if invalid
- * @example const rojs = require('ro.js')
- * const validate = await rojs.client.validateCookie('_|WARNING:-DO-NOT-SHARE-THIS.--Sharing-this-will-allow-someone-to-log-in-as-you-and-to-steal-your-ROBUX-and-items.|_12345678901234567890')
+ * returns group logo url
+ * @category group
+ * @alias getlogo
+ * @returns {} username
+ * @param {number} id
+ * @example const roxy = require('roxy.js')
+ * const username = await roxy.user.getnamefromid(1719166332)
 **/
 
-async function validateCookie(cookie) {
-
+async function getnamefromid(id) {
+	const body = await axios.get('https://thumbnails.roblox.com/v1/groups/icons');
+	if (!body.status === 200) { throw new Error(`${chalk.bold('ro.js error:')} user does not exist`); }
+	else { return body.data.Username; }
 }
-
-module.exports = validateCookie;</code></pre>
+module.exports = getnamefromid;
+</code></pre>
         </article>
     </section>
 
