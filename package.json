@@ -1,9 +1,10 @@
 {
-  "name": "ro.js",
-  "version": "1.0.0",
+  "name": "roxy.js",
+  "version": "1.0.1",
   "description": "a simple node.js wrapper for roblox",
   "main": "lib/index.js",
   "directories": {
+    "doc": "docs",
     "lib": "lib",
     "test": "test"
   },
@@ -25,7 +26,7 @@
   "bugs": {
     "url": "https://github.com/coleiscoolig/ro.js/issues"
   },
-  "homepage": "https://github.com/coleiscoolig/ro.js#readme",
+  "homepage": "https://ro.js.org",
   "dependencies": {
     "axios": "^0.21.1",
     "chalk": "^4.1.0",
