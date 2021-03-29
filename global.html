@@ -378,7 +378,7 @@ const userid = await roxy.user.getidfromname('duixrix')</code></pre>
         
         <span class="code-name">
             
-                getlogo<span class="signature">(id)</span><span class="type-signature"></span>
+                getlogo<span class="signature">(groupid)</span><span class="type-signature"> &rarr; {string}</span>
             
         </span>
     </h4>
@@ -425,7 +425,7 @@ const userid = await roxy.user.getidfromname('duixrix')</code></pre>
             
 <tr class="deep-level-0">
   
-      <td class="name"><code>id</code></td>
+      <td class="name"><code>groupid</code></td>
   
 
   <td class="type">
@@ -520,8 +520,16 @@ const userid = await roxy.user.getidfromname('duixrix')</code></pre>
 
 <div class="columns">
     
-    <div class='param-desc column is-7'><p>username</p></div>
+    <div class='param-desc column is-7'><p>image url</p></div>
     
+    
+    <div class='column is-5 has-text-left'>
+        <label>Type: </label>
+        
+<span class="param-type">string</span>
+
+
+    </div>
     
 </div>
 
@@ -536,7 +544,7 @@ const userid = await roxy.user.getidfromname('duixrix')</code></pre>
     
     
         <pre class="prettyprint"><code>const roxy = require('roxy.js')
-const username = await roxy.user.getnamefromid(1719166332)</code></pre>
+const logo = await roxy.group.getlogo(5097136, 150, true)</code></pre>
     
 
 

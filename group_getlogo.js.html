@@ -118,18 +118,23 @@ const chalk = require('chalk');
  * returns group logo url
  * @category group
  * @alias getlogo
- * @returns {} username
- * @param {number} id
+ * @returns {string} image url
+ * @param {number} groupid
  * @example const roxy = require('roxy.js')
- * const username = await roxy.user.getnamefromid(1719166332)
+ * const logo = await roxy.group.getlogo(5097136, 150, true)
 **/
 
-async function getnamefromid(id) {
-	const body = await axios.get('https://thumbnails.roblox.com/v1/groups/icons');
-	if (!body.status === 200) { throw new Error(`${chalk.bold('roxy.js error:')} user does not exist`); }
-	else { return body.data.Username; }
+async function getlogo(groupid, size, circular) {
+	const body = await axios.get(`https://thumbnails.roblox.com/v1/groups/icons?groupIds=${groupid}&amp;size=${size || '150'}x${size || '150'}&amp;format=Png&amp;isCircular=${circular || 'false'}`);
+	if (!body.status === 200 || !body.data.data || !body.data.data[0]) {
+		console.error(`${chalk.yellow(chalk.bold('roxy.js error:'))} ${chalk.red('group does not exist')}`);
+		return;
+	}
+	else {
+		return body.data.data[0].imageUrl;
+	}
 }
-module.exports = getnamefromid;
+module.exports = getlogo;
 </code></pre>
         </article>
     </section>
