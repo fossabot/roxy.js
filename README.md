@@ -8,6 +8,7 @@
 <p align="center">
     <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-blue.svg?style=flat-square" alt="style"/></a>
     <a href="https://discord.gg/WK2qTecTkJ"><img src="https://img.shields.io/badge/discord-roxy.js-blue.svg?style=flat-square" alt="discord"></a>
+<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fcolenh%2Froxy.js?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcolenh%2Froxy.js.svg?type=shield"/></a>
     <a href="https://www.npmjs.com/package/roxy.js"><img src="https://img.shields.io/npm/v/roxy.js.svg?style=flat-square" alt="npm package"></a>
     <!-- <a href="https://travis-ci.org/suufi/noblox.js"><img src="https://img.shields.io/travis/suufi/noblox.js/master.svg?style=flat-square" alt="Travis Build Status"/></a></a> -->
 </p>
@@ -19,6 +20,9 @@
   <a href="#credits">credits</a> •
   <a href="#license">license</a>
 </p>
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcolenh%2Froxy.js.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fcolenh%2Froxy.js?ref=badge_large)
 
 ## about
 
